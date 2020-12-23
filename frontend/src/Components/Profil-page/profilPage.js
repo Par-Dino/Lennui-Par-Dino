@@ -1,7 +1,7 @@
 const URL="http://localhost:8081/user";  //url da la route de la requete en back
 
 
-const fetchie=()=>{ //instancier le js en react
+const fetcha=()=>{ //instancier le js en react
 
   const user={   // creation d un objet avec mes données a envoyer
     token: sessionStorage.getItem("Token")
@@ -19,13 +19,15 @@ const config = { //configuration fetch
     body: Formjson,// j'envoie dans le back body ==req.body
   } 
   
-
   fetch(URL, config) //instancier la fetch
   .then(response => { //après que la fetch est faite je fais :
     response.json().then(json => { //transformation de la reponse en json
-        document.querySelector('#username').innerHTML=json.username;    
+        document.querySelector('#username').innerHTML=json.username;
+        document.querySelector('#email').innerHTML=json.email;
+        document.querySelector('#progress').innerHTML=json.progress;
+        document.querySelector('#death').innerHTML=json.death;
   })})
  
 }
 
-export default fetchie;
+export default fetcha;

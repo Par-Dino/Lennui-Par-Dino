@@ -2,35 +2,24 @@
 
 
 
-
 .navbar{
-    width: 100vw;
-    height:6vh;
-    border-bottom: solid white 0.1px;
-    color:white;
     font-family: 'Almendra SC', serif;
+    background-color: #1F1E1E;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background: #1F1E1E;
-    
-    
-}
-
-.link{
-    margin-right:5rem;
-    width: 15vw;
-    display: flex;
-    justify-content: space-between;
 }
 
 h1{
-   margin-left: 2rem;
+    font-size: 2rem;
 }
 
-a{
-    color: white;
+.navbar a{
+    font-size: 1.2rem;
+    color:white;
     text-decoration: none;
-    font-size: 1.4rem;
-    
+}
+
+.navbar li{
+    list-style: none;
 }

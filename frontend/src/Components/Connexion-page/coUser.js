@@ -35,19 +35,9 @@ const config = { //configuration fetch
         {console.log('pb')}
         else{
       const token=json.accessToken;
-      const username=json.username;
-      const id=json.id;
-      const email=json.email;
-      const progress=json.progress;
-      const death=json.death;
 
       sessionStorage.setItem("Token",json.accessToken)
-      sessionStorage.setItem("Username",json.username)
-      sessionStorage.setItem("Id",json.id)
-      sessionStorage.setItem("Email",json.email)
-      sessionStorage.setItem("Progress",json.progress)
-      sessionStorage.setItem("Death",json.death)
-
+      
       document.location.href="/Homepage"
         }
   })})

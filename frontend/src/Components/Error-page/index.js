@@ -6,7 +6,7 @@ const ErrorPage = () => {
 
     return (
       
-            <div>
+            <div className={styles.container}>
                 <h1 className={styles.logo}>L'ENNUI</h1>
                     <p>Oops, cette page n'existe pas ! </p>
                 <div className={styles.largeBox}>

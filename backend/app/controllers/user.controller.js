@@ -7,7 +7,14 @@ exports.allAccess = (req, res) => {
 };
 
 exports.userBoard = (req, res) => {
-  res.status(200).send("contenue d'utilisateur.");
+  User.findOne({
+    _id:req.userId
+  })
+  .then(user =>
+    {
+      res.json(user)
+    })
+
 };
 
 exports.deleteAll = (req, res) => {
@@ -77,7 +84,7 @@ exports.profile = (req, res) => {
     username: req.body.username
   })
     .then(( user) => {
-  res.status(200).send({
+  res.json({
     id: user._id,
     username: user.username,
     email: user.email,
