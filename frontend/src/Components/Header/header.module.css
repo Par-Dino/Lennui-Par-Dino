@@ -12,10 +12,6 @@
 
 h1{
     font-size: 2rem;
-}
-
-.navbar a{
-    font-size: 1.2rem;
     color:white;
     text-decoration: none;
 }
@@ -23,3 +19,4 @@ h1{
 .navbar li{
     list-style: none;
 }
+

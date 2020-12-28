@@ -8,13 +8,11 @@ const Header = () => {
     useEffect(()=>{ header()})
     return (
         <header>
-            <div className={styles.navbar}>
-                <Link to='/'> <h1>L'ennui</h1> </Link>
-                <div className={styles.link}>
-                <button id="btn_profil">Profil</button>
-                <button id="btn_deco">Déconnexion</button>
-                </div>
-            </div>
+            <ul className={styles.navbar}>
+                <button id="btn_home"><h1>L'ennui</h1></button>
+                <li><button id="btn_profil">Profil</button></li>
+                <li><button id="btn_deco">Déconnexion</button></li>
+            </ul>
         </header>
     )
 
