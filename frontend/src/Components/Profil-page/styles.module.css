@@ -20,11 +20,12 @@
     background: rgba(24, 24, 24, 0.7);
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content:space-evenly;
+
     flex-direction: column;
     align-items: center;
     
 }
+
 
 
 .greenBtn{
@@ -59,5 +60,6 @@
 }
 
 p{
+
     font-size: 2rem;
 }

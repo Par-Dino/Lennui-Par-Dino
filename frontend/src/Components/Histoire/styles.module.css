@@ -10,7 +10,6 @@
 .container{
     background-color: #1F1E1E;
     height: 100vh; 
-    padding-top: 10px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;

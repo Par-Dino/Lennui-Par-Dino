@@ -14,9 +14,9 @@ const A = () => {
                     backgroundSize: '100vw' 
                     }}>
 
-                  <button> <Link to="/Prologue" className={styles.Link}>Page précédente</Link></button>
+                  <button><Link to="/Prologue" className={styles.Link}>Page précédente</Link></button>
                   <button><Link to="/B" className={styles.Link}>Page suivante</Link></button>
-
+                
                   {/* GAUCHE */}
                   <div className={styles.filterBox}><Link to="/Prologue"> 
           <p className={styles.text}>Il avait fallu plusieurs mois, et quelques opérations séduction pour que son père accepte enfin de laisser le félin dormir à l'intérieur avec eux, et non plus dans la grange, posé sur un ballot de paille, à quelques distances des vaches et des moutons. Bien entendu le chat passait le plus clair de ses journées à dormir et n'était pas une source folle de distraction , d'abord parce qu'il était vieux et fatigué, mais surtout grâce à toute la sagesse qu'il semblait avoir accumulé au fil des ans, mais le garçon ne l'en aimait pas moins de tout son coeur et passait souvent de longues minutes à l'observer simplement, parfois en caressant doucement son pelage. Ensuite, il vaquait à ses occupations. </p>
