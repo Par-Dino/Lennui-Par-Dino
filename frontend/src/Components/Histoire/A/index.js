@@ -15,7 +15,7 @@ const A = () => {
                     }}>
 
                   <button> <Link to="/Prologue" className={styles.Link}>Page précédente</Link></button>
-                  <button> <Link to="/B" className={styles.Link}>Page suivante</Link></button>
+                  <button><Link to="/B" className={styles.Link}>Page suivante</Link></button>
 
                   {/* GAUCHE */}
                   <div className={styles.filterBox}><Link to="/Prologue"> 

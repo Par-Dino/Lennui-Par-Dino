@@ -14,7 +14,7 @@ const Header = () => {
                 <button id="btn_home"><h1>L'ennui</h1></button>
                 <button id="btn_play">play</button>
                 <button id="btn_pause">pause</button>
-                <audio id='sound' src={mp3_file} loop play/>
+                <audio id='sound' src={mp3_file} loop autoplay/>
                 <li><button id="btn_profil">Profil</button></li>
                 <li><button id="btn_deco">Déconnexion</button></li>
             </ul>
