@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
 
 
+
+
 .container{
     background-color: #1F1E1E;
     height: 100vh; 
@@ -29,14 +31,14 @@
 .text{
     text-align: left;
     color:rgb(247, 235, 235);
-    font-size:1.2rem;
+    font-size:1.1rem;
     margin:1rem 5rem;
     letter-spacing: 0.1rem;
 }
 
 button{
     background-color: transparent;
-    border: 10px white;
+    border: 10px;
     height: 5vh;
 }
 
@@ -51,4 +53,12 @@ div a{
     outline: none;
     text-decoration: none;
     font-size: 2rem;
+}
+
+.destiny{
+    margin: 2rem 3rem;
+}
+
+.animaux{
+    margin: 2rem 1rem;
 }
