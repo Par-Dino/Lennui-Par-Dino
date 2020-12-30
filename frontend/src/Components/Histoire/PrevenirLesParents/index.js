@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../styles.module.css';
 import Header from '../../Header';
+import Image from '../../../img/parents.png';
 
 const Prevenir = () => {
   
@@ -16,9 +17,9 @@ const Prevenir = () => {
 
                 {/* GAUCHE */}
                 <div className={styles.filterBox}>
-                {/* <div className={styles.btnP}>
+                <div className={styles.btnP}>
                 <button> <Link to="/" className={styles.Link}>Page précédente</Link></button>
-                </div> */}
+                </div> 
 
         <p className={styles.text}>« Bon, j’ai fini de traire ces dames. Au fait p’pa. Ce matin le chat m’a confié une mission. Il m’a tout expliqué lorsque je suis rentré dans son esprit... »</p>
         <p className={styles.text}>Il valait mieux être direct avec lui et croiser les doigts pour qu’il ne percute que plus tard, quand vous serez déjà loin.</p>
@@ -29,9 +30,7 @@ const Prevenir = () => {
         <p className={styles.text}>-...Ne t’en fait pas, j’ai mon couteau sur moi en cas d’pépin et je serai rentre dès qu’c’est terminé, c’est promis. Au revoir ! </p>
         <p className={styles.text}>- D’accord. Dis, tu veux bien me passer le seau d’avoine avant d’filer ?</p>
         <p className={styles.text}>C’était passé en douceur. Il ne reste plus que votre mère à convaincre et ce ne sera pas une mince affaire.</p>
-        <p className={styles.text}></p>
-        <p className={styles.text}></p>
-        <p className={styles.text}></p>
+       
        
    
 
@@ -50,7 +49,7 @@ const Prevenir = () => {
         <p className={styles.text}>- Très bien, vous pouvez disposer.</p>
 
         <div className={styles.btnP}>
-        <button> <Link to="/prevenirlesparentsaurevoir" className={styles.Link2}>Page suivante</Link></button>
+        <button><Link to="/prevenirlesparentsaurevoir" className={styles.Link2}>Page suivante</Link></button>
         </div>
 
             </div>

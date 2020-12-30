@@ -1,24 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
 
-
-
 .container{
-    background-image: url('../../img/scribe.png');
-    background-size: 100vw 100vh;
-    background-repeat: none;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content:space-around;
-    align-items: center; 
-    font-family: 'Almendra SC', serif;
+    min-height: 100vh;
+    margin: 0 auto;
 } 
  
 .filterBox{
-    height: 85vh;
+    /* height: 85vh;
     width: 45vw;
     background: rgba(24, 24, 24, 0.7);
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1); */
+    min-height: 100vh;
 }
 
 
@@ -35,7 +27,7 @@
     border-radius: 30px;
     height: 3.2rem;
     width: 22rem;
-    margin:1.2rem;
+    margin:0.4rem;
     text-align: center;
     font-size: 1.1rem;
 }
@@ -45,10 +37,14 @@
 }
 
 
-label{
-    color:white;
+.label{
+    text-align: center;
+    width: 100%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.123);
     font-size: 3rem;
-    margin: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .btnBox{
@@ -87,6 +83,7 @@ label{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: #be3c3c solid 1px;
 }
 
 
@@ -115,8 +112,15 @@ label{
     height: 100%;
     width: 100%;
     border-radius: 30px;
-    background-color: #9DD058;
+    background-color: #30e22a;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: #11aa0c solid 1px;
+}
+
+.img{
+    position: absolute; z-index: -5;
+    height: 100%;
+    width: 100%;
 }

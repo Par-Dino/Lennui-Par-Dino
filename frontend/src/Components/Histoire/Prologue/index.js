@@ -39,6 +39,7 @@ const Prologue = () => {
         <div className={styles.btnS}>
         <button> <Link to="/A" className={styles.Link2}>Page suivante</Link></button>
         </div>
+        
             </div>
             </div>
         </div>

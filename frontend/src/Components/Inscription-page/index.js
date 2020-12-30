@@ -2,16 +2,19 @@ import React,{useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import styles from './inscription.module.css';
 import fetchie from './addUser';
-
+import logo from '../../img/scribe.png';
 
 
 const Inscription = () => {                                                                                                             
     useEffect(()=>{ fetchie()})
     return(
+        
+        <div> 
+        <img className={styles.img} src={logo}></img> 
         <div className={styles.container}>
             <div className={styles.filterBox}> 
                 <form className={styles.formInscription}>
-                    <label>Inscription</label>
+                    <label className={styles.label}>Inscription</label>
                 <input className={styles.inputInscription} id="username" type="text" method="post" for="" placeholder="Identifiant ..."></input>
                 <input className={styles.inputInscription} id="email" type="text" method="post" for="email" placeholder="Adresse mail ..."></input>
                 <input className={styles.inputInscription} id="password" type="password" method="post" for="password" placeholder="Mot de passe ..."></input>
@@ -33,6 +36,7 @@ const Inscription = () => {
 
 
             </div>
+        </div>
         </div>
     )
     

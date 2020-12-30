@@ -5,7 +5,6 @@
     background-image: url(../../img/porte.png);
     background-color: #1F1E1E;
     background-size: 100vw 100vh;
-   
     height: 100vh; 
     display: flex;
     justify-content:space-around;
@@ -15,49 +14,52 @@
 } 
 
 .filterBox{
-    height: 85vh;
-    width: 45vw;
-    background: rgba(24, 24, 24, 0.7);
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    /* height: 85vh;
+    width: 45vw; */
+    /* background: rgba(24, 24, 24, 0.7); */
+    /* box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1); */
     display: flex;
     justify-content:space-evenly;
     flex-direction: column;
     align-items: center;
-    
 }
 
 
-.greenBtn{
+.Btn{
     position: relative;
-    background-color: #9A5E2E;
+    background-color: #d4ff98;
     height: 2.8rem;
     width: 12rem;
     border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem;    
+    margin: 1rem; 
+    margin-top: 2rem;   
 }
 
-.greenBtn a {
+.Btn a {
     color: black;
     text-decoration: none;
     font-size: 1.5rem;
 }
 
-.lightGreen{
+.lightBtn{
     position: absolute;
     top:-4px;
     left: 0;
     height: 100%;
     width: 100%;
     border-radius: 30px;
-    background-color: #B6713A;
+    background-color: #30e22a;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: #11aa0c solid 1px;
 }
 
-p{
-    font-size: 2rem;
+.p{
+    margin-bottom: 2rem;
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+    font-size: 2.5rem;
 }

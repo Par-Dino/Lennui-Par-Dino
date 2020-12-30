@@ -8,7 +8,7 @@ elsoundpause.addEventListener("click", pauseAudio);
 
 
 var x = document.getElementById("sound");
-x.volume = 0.5;
+x.volume = 0.2;
 
 function playAudio() {
     x.play();

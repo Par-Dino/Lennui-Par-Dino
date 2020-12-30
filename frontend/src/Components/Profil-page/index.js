@@ -13,6 +13,9 @@ const ProfilPage = () => {
             <Header />
             <div className={styles.container}>
                 <div className={styles.filterBox}>
+
+                
+
                     <p>Compte</p>
                     <li>
                         <p>Pseudo : <span id="username"></span></p>       

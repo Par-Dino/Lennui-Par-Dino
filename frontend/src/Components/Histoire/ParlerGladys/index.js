@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../styles.module.css';
 import Header from '../../Header';
+import Image from '../../../img/gladysvecteur16.png';
 
 const Gladys = () => {
   
@@ -16,9 +17,9 @@ const Gladys = () => {
 
                 {/* GAUCHE */}
                 <div className={styles.filterBox}>
-                {/* <div className={styles.btnP}>
-                <button> <Link to="/" className={styles.Link}>Page précédente</Link></button>
-                </div> */}
+                <div className={styles.btnP}>
+                <button> <Link to="/accepterSonDestinSuite" className={styles.Link}>Page précédente</Link></button>
+                </div>
 
         <p className={styles.text}>Vous vous approchez de l’enclos. Vous apercevez Ferdinand, ce vieux bouc solitaire et, osons le dire, plutôt antipathique. La dernière fois que vous avez tenté de le caresser il vous a fait comprendre que personne n’avait le droit de lever la main sur lui en vous donnant un coup de corne. Ce jour là vous aviez pleuré, mais c’était davantage le fait de la surprise que par réelle douleur. Ça avait cependant été une grande leçon de vie : certains animaux sont de vrais connards.</p>
         <p className={styles.text}>Vous décidez de l’ignorer et scrutez l’enclos en profondeur avant d’appeler celle à qui vous êtes venu dire au revoir :</p>

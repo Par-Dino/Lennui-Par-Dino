@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../styles.module.css';
 import Header from '../../Header';
+import Image from '../../../img/parents.png';
 
 const AurevoirDeux = () => {
   
@@ -39,12 +40,12 @@ const AurevoirDeux = () => {
         <p className={styles.text}>C’était un simple sourire, mais il était suffisant. Elle avait compris. Elle avait acceptée. Elle s’était résignée.</p>
         <p className={styles.text}>« Bon courage mon garçon ».</p>
         <p className={styles.text}>Ses traits inspiraient la paix et la confiance. </p>
-        <p className={styles.text}></p>
-        <p className={styles.text}></p>
+        <p className={styles.text}>A SUIVRE.</p>
+        
 
-        <div className={styles.btnS}>
+        {/* <div className={styles.btnS}>
         <button> <Link to="/" className={styles.Link2}>Page suivante</Link></button>
-        </div>
+        </div> */}
                
             </div>
             </div>

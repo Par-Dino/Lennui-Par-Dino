@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../styles.module.css';
 import Header from '../../Header';
+import Image from '../../../img/parents.png';
 
 const Aurevoir = () => {
   
@@ -45,11 +46,7 @@ const Aurevoir = () => {
         <p className={styles.text}>Un sentiment d’impuissance qui vous accable. C’est terrible de n’avoir que la vérité à offrir quand cette dernière prend la forme de folles inepties. Soudain votre impuissance se mue en colère. </p>
         <p className={styles.text}>« Je suis très sérieux. Si je ne fais rien, bientôt le monde deviendra insipide, plat et sans saveurs. </p>
         <p className={styles.text}>-Super, oui. » Elle n’était pas contrariante, il fallait le reconnaître. Cette pantalonnade allait toutefois s’arrêter sur le champs.</p>
-        <p className={styles.text}></p>
-        <p className={styles.text}></p>
-        <p className={styles.text}></p>
-        <p className={styles.text}></p>
-        <p className={styles.text}></p>
+      
 
         <div className={styles.btnS}>
         <button> <Link to="/prevenirlesparentsaurevoirmere" className={styles.Link2}>Page suivante</Link></button>

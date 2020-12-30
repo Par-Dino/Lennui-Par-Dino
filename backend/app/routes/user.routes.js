@@ -14,10 +14,8 @@ module.exports = function(app) {
   });
 
   app.get("/all", controller.allAccess);
-  app.delete("/", controller.deleteAll);
-  app.delete("/:id", controller.delete);
   app.put("/:id", controller.update);
   app.post("/user", authJwt.verifyToken, controller.userBoard);
-  app.post("/profile", controller.profile);
+ 
 
 };

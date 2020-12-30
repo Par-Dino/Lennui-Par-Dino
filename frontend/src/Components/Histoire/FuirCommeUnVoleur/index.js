@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../styles.module.css';
 import Header from '../../Header';
+import Image from '../../../img/voleurvecteur3.png';
 
 const Fuir = () => {
   
@@ -31,9 +32,9 @@ const Fuir = () => {
         <p className={styles.text}> A SUIVRE.</p>
         <p className={styles.text}></p>
 
-        <div className={styles.btnS}>
+        {/* <div className={styles.btnS}>
         <button> <Link to="/" className={styles.Link2}>Page suivante</Link></button>
-        </div>
+        </div> */}
             </div>
             </div>
         </div>

@@ -26,26 +26,32 @@ exports.signup = (req, res) => {
           });
         }
 
+
 exports.signin = (req, res) => {
+
   console.log(req.body);
   User.findOne({
     username: req.body.username
   })
     .then((user) => {
-
-      if (!user) {
-        res.status(404).json({ message: "user non trouver." });
+      
+      if(!user) {
+          res.json({
+            message: "user not found"
+          });      
       }
 
       var passwordIsValid = bcrypt.compareSync(
         req.body.password,
         user.password
+  
       );
+     
 
       if (!passwordIsValid) {
-         res.status(401).json({
+         res.json({
           accessToken: null,
-          message: "password invalide!"
+          message: "wrong password"
         });
       }
 

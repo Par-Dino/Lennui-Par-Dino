@@ -13,10 +13,10 @@ const HomePage = () => {
             <Header />
             <div className={styles.container}>
                 <div className={styles.filterBox}>
-                    <p>Bienvenue à toi <span id="username"></span> !</p>
-                    <p>Prépare toi à vivre une grande aventure.</p>
-                    <div className={styles.greenBtn}>
-                        <span className={styles.lightGreen}>
+                    <p className={styles.p}>Bienvenue à toi <span id="username"></span> !</p>
+                    <p className={styles.p}>Prépare toi à vivre une grande aventure.</p>
+                    <div className={styles.Btn}>
+                        <span className={styles.lightBtn}>
                         <Link className="" to="/Prologue">Je me lance !</Link>
                         </span>
                 </div>

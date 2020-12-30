@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../styles.module.css';
 import Header from '../../Header';
+import Image from '../../../img/charlie.png';
 
 const Charlie = () => {
   
@@ -16,9 +17,10 @@ const Charlie = () => {
 
                 {/* GAUCHE */}
                 <div className={styles.filterBox}>
-                {/* <div className={styles.btnP}>
-                <button> <Link to="/" className={styles.Link}>Page précédente</Link></button>
-                </div> */}
+
+                <div className={styles.btnP}>
+                <button> <Link to="/accepterSonDestinSuite" className={styles.Link}>Page précédente</Link></button>
+                </div>
         <p className={styles.text}>Vous arrivez dans la basse-cour. Des graines sont éparpillées ça et là, deux poules courent se réfugier à votre arrivée en hurlant :</p>
         <p className={styles.text}>« OhMonDieuOhMonDieuOhMonDieuuuuuuu » </p>
         <p className={styles.text}>Vous n’êtes pas surpris, les poules ont très peu de self-control et cèdent vite à la panique. Les autres poules se rapprochent doucement de leur protecteur bien-aimé. Charlie est là, triomphal et misérable, sérieux et comique à la fois. Vous ne pouvez vous empêcher de sourire devant tant de panache.</p>
@@ -48,11 +50,16 @@ const Charlie = () => {
         <p className={styles.text}>- J’ai confiance en toiiiiii ! A la revoyure camaraaaaaadee !</p>
         <p className={styles.text}></p>
         <p className={styles.text}></p>
+
+        <div className={styles.btnS}>
         <button> <Link to="/transition" className={styles.Link2}>Page suivante</Link></button>
+
+        </div>
+        </div>
 
             </div>
             </div>
-        </div>
+        
 
     )
 }
